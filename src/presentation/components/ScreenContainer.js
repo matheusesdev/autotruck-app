@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { theme } from '../utils/theme';
+import { theme } from '../../shared/theme/theme';
 
 export function ScreenContainer({ title }) {
   return (
