@@ -8,7 +8,7 @@ import PartsScreen from '../screens/PartsScreen';
 import VehiclesScreen from '../screens/VehiclesScreen';
 import ServicesScreen from '../screens/ServicesScreen';
 import ProfileScreen from '../screens/ProfileScreen';
-import { theme } from '../utils/theme';
+import { theme } from '../../shared/theme/theme';
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -43,7 +43,7 @@ export default function AppNavigator() {
         <Stack.Screen
           name="MainTabs"
           component={MainTabs}
-          options={{ headerShown: false }}
+          options={{headerShown: false}}
         />
       </Stack.Navigator>
     </NavigationContainer>

@@ -2,8 +2,8 @@ import React from 'react';
 import { StatusBar } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
-import AppNavigator from './src/navigation/AppNavigator';
-import { theme } from './src/utils/theme';
+import AppNavigator from './src/presentation/navigation/AppNavigator';
+import { theme } from './src/shared/theme/theme';
 
 function App() {
   return (
